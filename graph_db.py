@@ -3,9 +3,9 @@ from neo4j import GraphDatabase
 from typing import List, Dict
 import os
 
-NEO4J_URI = "neo4j+s://93e9dba5.databases.neo4j.io"
+NEO4J_URI = ".com"
 NEO4J_USER = "neo4j"
-NEO4J_PASSWORD = "A1b2C3D4E5F6G7H8"
+NEO4J_PASSWORD = "Neo4J_password"
 
 class GraphDB:
     def __init__(self, uri=NEO4J_URI, user=NEO4J_USER, password=NEO4J_PASSWORD):
@@ -71,6 +71,7 @@ class GraphDB:
             return {"nodes": nodes, "relationships": relationships}
 
         
+
 
 
 
